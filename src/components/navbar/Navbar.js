@@ -24,7 +24,7 @@ export default function Navbar() {
           : "col-12 navbar navbar-expand-lg navbar-light bg-light header"
       }
     >
-      <a className="navbar-brand col-md-7  " href="#">
+      <a className="navbar-brand col-md-6  " href="#">
         LOR
       </a>
 
@@ -41,22 +41,22 @@ export default function Navbar() {
       </button>
       <div className="collapse  navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav">
-          <li className="nav-item active">
-            <a className="nav-link a1" href="#">
+          <li className="nav-item pr-2 active">
+            <a className="nav-link  a1" href="#">
               Home <span className="sr-only">(current)</span>
             </a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item pr-2">
             <a className="nav-link a1" href="#">
               About
             </a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item pr-2">
             <a className="nav-link  a1" href="#">
               Works
             </a>
           </li>
-          <li className="nav-item">
+          <li className="nav-item pr-2">
             <a className="nav-link  a1" href="#">
               Cantact Us
             </a>
