@@ -1,0 +1,14 @@
+.big-title {
+  margin-top: 2.7em;
+  position: relative;
+}
+.big-title::after {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 2px;
+  background: #777;
+  left: 46%;
+  bottom: -12px;
+  position: absolute;
+}

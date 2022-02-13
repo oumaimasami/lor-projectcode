@@ -1,6 +1,7 @@
 .video {
   margin-top: -80px !important;
   z-index: -1;
+  position: relative;
 }
 .header-text {
   position: absolute;
