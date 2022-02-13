@@ -20,8 +20,8 @@ export default function Navbar() {
     <nav
       className={
         navbar
-          ? "col-12 navbar navbar-expand-lg navbar-light  header active1"
-          : "col-12 navbar navbar-expand-lg navbar-light  header"
+          ? "col-12 navbar navbar-expand-lg navbar-dark shadow-5-strong header active1"
+          : "col-12 navbar navbar-expand-lg navbar-dark shadow-5-strong header"
       }
     >
       <a className="navbar-brand col-md-6 d-flex " href="#">

@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/navbar/Navbar";
 import video from "../images/vd.mp4";
+import "./home.css";
 export default function Home() {
   return (
     <div>
