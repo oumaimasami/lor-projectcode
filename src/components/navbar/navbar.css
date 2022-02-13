@@ -54,12 +54,6 @@ nav a::after {
 .a1::after {
   background: #777777;
 }
-.a2::after {
-  background: #777777;
-}
-.a3::after {
-  background: #777777;
-}
 
 nav a:hover::after {
   transform: scaleX(0.8);
