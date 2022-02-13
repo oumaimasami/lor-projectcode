@@ -1,0 +1,11 @@
+.video {
+  margin-top: -80px !important;
+  z-index: -1;
+}
+.header-text {
+  position: absolute;
+  top: 65%;
+  left: 30%;
+  color: white;
+  font-family: Playfair Display, serif !important;
+}

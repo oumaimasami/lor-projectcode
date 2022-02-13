@@ -24,12 +24,12 @@
   height: 80px;
   border: none;
   color: white;
+  position: fixed !important;
   top: 0;
   transition: background-color 1s ease 0s;
 }
 .header.active1 {
   background: #222222 !important;
-  position: fixed !important;
 }
 
 nav a {

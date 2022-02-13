@@ -5,7 +5,7 @@ export default function Navbar() {
   const [navbar, setNavbar] = useState(false);
   useEffect(() => {
     window.addEventListener("scroll", () => {
-      if (window.scrollY >= 80) {
+      if (window.scrollY >= 500) {
         setNavbar(true);
       } else {
         setNavbar(false);
