@@ -1,4 +1,5 @@
 import React from "react";
+import About from "../components/About";
 import Header from "../components/Header";
 import Navbar from "../components/navbar/Navbar";
 import Products from "../components/Products";
@@ -10,6 +11,7 @@ export default function Home() {
       <Navbar />
       <Header />
       <Products />
+      <About />
     </>
   );
 }

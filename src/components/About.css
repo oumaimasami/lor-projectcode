@@ -1,0 +1,43 @@
+.backimg {
+  position: relative;
+  object-fit: contain !important;
+  background-image: url(../images/Product1111.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 70vh;
+  color: #fff;
+  overflow: hidden;
+  z-index: 1;
+}
+.about-text {
+  font-size: 20px;
+  line-height: 1.68em;
+  font-weight: 500;
+}
+.about-title {
+  position: relative;
+}
+.about-title::after {
+  content: "";
+  display: block;
+  width: 70px;
+  height: 2px;
+  background: #fff;
+  left: 40%;
+  bottom: -7px;
+  position: absolute;
+}
+.second-line {
+  position: relative;
+}
+.second-line::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 2px;
+  background: #fff;
+  left: 48%;
+  bottom: -14px;
+  position: absolute;
+}

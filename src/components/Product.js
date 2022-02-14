@@ -1,5 +1,5 @@
 import React from "react";
-import product from "../images/Product1.jpg";
+import product from "../images/Product22.jpg";
 import "./Product.css";
 export default function Product() {
   return (
