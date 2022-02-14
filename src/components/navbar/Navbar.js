@@ -24,7 +24,7 @@ export default function Navbar() {
           : "col-12 navbar navbar-expand-lg navbar-dark shadow-5-strong header"
       }
     >
-      <a className="navbar-brand col-md-6 d-flex " href="#">
+      <a className="navbar-brand col-md-7 d-flex " href="#">
         LOR
       </a>
 

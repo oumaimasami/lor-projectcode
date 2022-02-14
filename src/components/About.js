@@ -12,8 +12,8 @@ export default function About() {
         </div>
         <br />
         <p className="d-flex text-center mt-3">
-          Lor is the result of a collaboration between two young Tunisian
-          designers and craftsmen from the Medina. All Lor creations are
+          LOR is the result of a collaboration between two young Tunisian
+          designers and craftsmen from the Medina. All LOR Creations are
           handmade, combining tradition and modernity.
         </p>
       </div>
