@@ -1,18 +1,19 @@
 import React from "react";
-import FacebookIcon from "@mui/icons-material/Facebook";
-import InstagramIcon from "@mui/icons-material/Instagram";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import FacebookIcon from "@material-ui/icons/Facebook";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import InstagramIcon from "@material-ui/icons/Instagram";
 import "./Footer.css";
 
 export default function Footer() {
   return (
-    <footer className="d-flex mt-5 py-5 justify-content-center footer">
-      <h2>Stay In Touch</h2>
-      <div className="row">
-        <FacebookIcon />
-        <InstagramIcon />
-        <LinkedInIcon />
+    <footer className="mt-5 py-5 footer">
+      <h2 className="mt-2">Stay In Touch</h2>
+      <div className="row footer-icon mt-3 mb-5">
+        <FacebookIcon style={{ fontSize: "32px" }} />
+        <InstagramIcon style={{ fontSize: "32px" }} />
+        <LinkedInIcon style={{ fontSize: "32px" }} />
       </div>
+      <p className="mt-5">&copy; 2022 - LOR. All Rights Reserved.</p>
     </footer>
   );
 }

@@ -1,4 +1,11 @@
 .footer {
   background: #222222 !important;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 300px;
+}
+.footer-icon {
+  cursor: pointer;
 }
