@@ -68,7 +68,7 @@ export default function Cantact() {
 
             <button
               type="submit"
-              className=" btn submit mb-5 mt-2"
+              className=" btn submit mx-2 mb-5 mt-2"
               value="Send"
             >
               Submit
