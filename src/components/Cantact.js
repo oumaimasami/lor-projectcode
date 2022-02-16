@@ -66,7 +66,7 @@ export default function Cantact() {
               />
             </div>
 
-            <div type="submit" className=" btn submit my-2" value="Send">
+            <div type="submit" className=" btn submit mb-5 mt-2" value="Send">
               Submit
             </div>
           </div>

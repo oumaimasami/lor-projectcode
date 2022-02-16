@@ -2,6 +2,7 @@
   height: 450px;
   width: 500px;
   font-size: 21px;
+  position: relative;
 }
 .Cantact-title {
   margin-top: 2.7em;
