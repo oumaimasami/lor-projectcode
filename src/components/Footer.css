@@ -9,4 +9,6 @@
 }
 .footer-icon {
   cursor: pointer;
+  text-decoration: none !important;
+  color: white !important;
 }

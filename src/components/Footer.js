@@ -8,11 +8,17 @@ export default function Footer() {
   return (
     <footer className="mt-5 py-5 footer">
       <h2 className="mt-3">Stay In Touch</h2>
-      <div className="row footer-icon mt-3 mb-5">
-        <a href="https://www.facebook.com/lor.conceptstore/">
+      <div className="row  mt-3 mb-5">
+        <a
+          className="footer-icon"
+          href="https://www.facebook.com/lor.conceptstore/"
+        >
           <FacebookIcon className="mx-2" style={{ fontSize: "30px" }} />
         </a>
-        <a href="https://www.instagram.com/lor_conceptstore/">
+        <a
+          className="footer-icon"
+          href="https://www.instagram.com/lor_conceptstore/"
+        >
           <InstagramIcon className="mx-2" style={{ fontSize: "30px" }} />
         </a>
         <a>
