@@ -13,7 +13,7 @@ export default function Footer() {
         <InstagramIcon style={{ fontSize: "32px" }} />
         <LinkedInIcon style={{ fontSize: "32px" }} />
       </div>
-      <p className="mt-5">&copy; 2022 - LOR. All Rights Reserved.</p>
+      <p className="mt-5 credits">&copy; 2022 - LOR. All Rights Reserved.</p>
     </footer>
   );
 }
