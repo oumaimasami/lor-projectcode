@@ -66,11 +66,7 @@ export default function Cantact() {
               />
             </div>
 
-            <div
-              type="submit"
-              className="d-flex justify-content-center btn submit my-2"
-              value="Send"
-            >
+            <div type="submit" className=" btn submit my-2" value="Send">
               Submit
             </div>
           </div>

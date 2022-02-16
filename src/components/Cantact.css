@@ -29,9 +29,7 @@
   display: flex;
   -webkit-box-align: center;
   box-shadow: none !important;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   cursor: pointer;
-  z-index: 10;
   color: white !important;
 }
 .submit:hover {
