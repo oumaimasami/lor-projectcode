@@ -9,9 +9,15 @@ export default function Footer() {
     <footer className="mt-5 py-5 footer">
       <h2 className="mt-3">Stay In Touch</h2>
       <div className="row footer-icon mt-3 mb-5">
-        <FacebookIcon className="mx-2" style={{ fontSize: "30px" }} />
-        <InstagramIcon className="mx-2" style={{ fontSize: "30px" }} />
-        <WhatsAppIcon className="mx-2" style={{ fontSize: "30px" }} />
+        <a href="https://www.facebook.com/lor.conceptstore/">
+          <FacebookIcon className="mx-2" style={{ fontSize: "30px" }} />
+        </a>
+        <a href="https://www.instagram.com/lor_conceptstore/">
+          <InstagramIcon className="mx-2" style={{ fontSize: "30px" }} />
+        </a>
+        <a>
+          <WhatsAppIcon className="mx-2" style={{ fontSize: "30px" }} />
+        </a>
       </div>
       <p className="mt-3 credits">&copy; 2022 - LOR. All Rights Reserved.</p>
     </footer>
