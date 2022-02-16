@@ -16,3 +16,26 @@
   bottom: -12px;
   position: absolute;
 }
+.submit {
+  justify-content: center;
+  background-color: #222222;
+  margin-right: 19px;
+  font-size: 15px;
+  line-height: 1.33333;
+  padding: 0px 25px;
+  margin-bottom: 2px;
+  margin-top: 2px;
+  align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  display: flex;
+  -webkit-box-align: center;
+  box-shadow: none !important;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+  z-index: 10;
+  color: white;
+}
+.Modified_button:hover {
+  opacity: 70%;
+}
