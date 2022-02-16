@@ -1,0 +1,18 @@
+.cantact-form {
+  height: 500px;
+  width: 500px;
+}
+.Cantact-title {
+  margin-top: 2.7em;
+  position: relative;
+}
+.Cantact-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 2px;
+  background: #777;
+  left: 20%;
+  bottom: -12px;
+  position: absolute;
+}
