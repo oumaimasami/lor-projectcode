@@ -1,6 +1,7 @@
 .cantact-form {
-  height: 500px;
+  height: 450px;
   width: 500px;
+  font-size: 21px;
 }
 .Cantact-title {
   margin-top: 2.7em;
@@ -18,14 +19,11 @@
 }
 .submit {
   justify-content: center;
-  background-color: #222222;
-  margin-right: 19px;
-  font-size: 15px;
+  background-color: #222222 !important;
   line-height: 1.33333;
-  padding: 0px 25px;
-  margin-bottom: 2px;
-  margin-top: 2px;
+  padding: 8px 25px !important;
   align-items: center;
+  font-size: 20px !important;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   display: flex;
@@ -34,8 +32,8 @@
   font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
   cursor: pointer;
   z-index: 10;
-  color: white;
+  color: white !important;
 }
-.Modified_button:hover {
-  opacity: 70%;
+.submit:hover {
+  opacity: 90%;
 }

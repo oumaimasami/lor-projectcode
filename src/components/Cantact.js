@@ -38,7 +38,7 @@ export default function Cantact() {
         >
           <div className="form-row col-8">
             <div className="form-group col-md-6">
-              <label for="inlineFormInput">Name</label>
+              <label for="inlineFormInput pl-2">Name</label>
               <input
                 type="name"
                 className="form-control"
@@ -48,7 +48,7 @@ export default function Cantact() {
               />
             </div>
             <div className="form-group col-md-6">
-              <label for="inputEmail4">Email</label>
+              <label for="inputEmail4 pl-2">Email</label>
               <input
                 type="email"
                 className="form-control"
@@ -65,10 +65,13 @@ export default function Cantact() {
                 name="message"
               />
             </div>
-            <div class="col-auto">
-              <button type="submit" class="btn btn-primary mb-2" value="Send">
-                Submit
-              </button>
+
+            <div
+              type="submit"
+              className="d-flex justify-content-center btn submit my-2"
+              value="Send"
+            >
+              Submit
             </div>
           </div>
         </form>
