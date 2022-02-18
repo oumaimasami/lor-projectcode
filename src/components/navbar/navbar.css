@@ -17,8 +17,7 @@
   margin-left: 40px !important;
 }
 .navbar-nav {
-  background-color: #222222;
-  padding: 0;
+  background-color: transparent;
 }
 .header {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
@@ -64,5 +63,8 @@ nav a:hover::after {
 @media (max-width: 684px) {
   nav a {
     font-size: 16px;
+  }
+  .navbar-nav {
+    background-color: #222222;
   }
 }
