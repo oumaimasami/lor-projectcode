@@ -25,7 +25,7 @@ export default function Cantact() {
     e.target.reset();
   };
   return (
-    <div className="container cantact-form">
+    <div className="container cantact-form" id="#Cantact">
       <div className="row d-flex justify-content-center">
         <div className="col-12 d-flex justify-content-center">
           <h2 className="Cantact-title mb-5">Cantact Us</h2>

@@ -24,7 +24,7 @@ export default function Navbar() {
           : "col-12 navbar navbar-expand-lg navbar-dark shadow-5-strong header"
       }
     >
-      <a className="navbar-brand col-md-7 d-flex " href="#">
+      <a className="navbar-brand col-md-6 d-flex " href="#">
         LOR
       </a>
 
@@ -39,25 +39,25 @@ export default function Navbar() {
       >
         <span className="navbar-toggler-icon"></span>
       </button>
-      <div className="collapse  navbar-collapse" id="navbarNavDropdown">
+      <div className="collapse navbar-collapse" id="navbarNavDropdown">
         <ul className="navbar-nav">
-          <li className="nav-item pr-2 active">
+          <li className="nav-item pr-2 pl-5 active">
             <a className="nav-link  a1" href="#">
               Home <span className="sr-only">(current)</span>
             </a>
           </li>
           <li className="nav-item pr-2">
-            <a className="nav-link a1" href="#">
+            <a className="nav-link a1" href="#About">
               About
             </a>
           </li>
           <li className="nav-item pr-2">
-            <a className="nav-link  a1" href="#">
-              Works
+            <a className="nav-link  a1" href="#Products">
+              Products
             </a>
           </li>
           <li className="nav-item pr-2">
-            <a className="nav-link  a1" href="#">
+            <a className="nav-link  a1" href="#Cantact">
               Cantact Us
             </a>
           </li>

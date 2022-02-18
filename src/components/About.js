@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 export default function About() {
   return (
-    <div className="backimg my-5 row ">
+    <div className=" backimg my-5 row " id="About">
       <div className="col-7"></div>
       <div className="about-text col-4 my-5 text-center">
         <div className="second-line">
