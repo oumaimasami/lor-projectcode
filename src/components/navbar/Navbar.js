@@ -1,10 +1,10 @@
-import React, { useState, useEffect } from "react";
-import "./navbar.css";
+import React, { useState, useEffect } from 'react';
+import './navbar.css';
 
 export default function Navbar() {
   const [navbar, setNavbar] = useState(false);
   useEffect(() => {
-    window.addEventListener("scroll", () => {
+    window.addEventListener('scroll', () => {
       if (window.scrollY >= 500) {
         setNavbar(true);
       } else {
@@ -12,7 +12,7 @@ export default function Navbar() {
       }
     });
     return () => {
-      window.removeEventListener("scroll", setNavbar);
+      window.removeEventListener('scroll', setNavbar);
     };
   }, []);
 
@@ -20,11 +20,11 @@ export default function Navbar() {
     <nav
       className={
         navbar
-          ? "col-12 navbar navbar-expand-lg navbar-dark shadow-5-strong header active1"
-          : "col-12 navbar navbar-expand-lg navbar-dark shadow-5-strong header"
+          ? 'col-12 navbar navbar-expand-lg navbar-dark shadow-5-strong header active1 p-0'
+          : 'col-12 navbar navbar-expand-lg navbar-dark shadow-5-strong header p-0'
       }
     >
-      <a className="navbar-brand col-md-6 d-flex " href="#">
+      <a className="navbar-brand col-md-6 col-2 d-flex " href="#">
         LOR
       </a>
 
@@ -58,7 +58,7 @@ export default function Navbar() {
           </li>
           <li className="nav-item pr-2">
             <a className="nav-link  a1" href="#Cantact">
-              Cantact Us
+              Contact Us
             </a>
           </li>
         </ul>

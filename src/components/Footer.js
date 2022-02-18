@@ -1,8 +1,8 @@
-import React from "react";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import WhatsAppIcon from "@material-ui/icons/WhatsApp";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import "./Footer.css";
+import React from 'react';
+import FacebookIcon from '@material-ui/icons/Facebook';
+import WhatsAppIcon from '@material-ui/icons/WhatsApp';
+import InstagramIcon from '@material-ui/icons/Instagram';
+import './Footer.css';
 
 export default function Footer() {
   return (
@@ -12,17 +12,19 @@ export default function Footer() {
         <a
           className="footer-icon"
           href="https://www.facebook.com/lor.conceptstore/"
+          target="_blank"
         >
-          <FacebookIcon className="mx-2" style={{ fontSize: "30px" }} />
+          <FacebookIcon className="mx-2" style={{ fontSize: '30px' }} />
         </a>
         <a
           className="footer-icon"
           href="https://www.instagram.com/lor_conceptstore/"
+          target="_blank"
         >
-          <InstagramIcon className="mx-2" style={{ fontSize: "30px" }} />
+          <InstagramIcon className="mx-2" style={{ fontSize: '30px' }} />
         </a>
         <a>
-          <WhatsAppIcon className="mx-2" style={{ fontSize: "30px" }} />
+          <WhatsAppIcon className="mx-2" style={{ fontSize: '30px' }} />
         </a>
       </div>
       <p className="mt-3 credits">&copy; 2022 - LOR. All Rights Reserved.</p>

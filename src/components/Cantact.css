@@ -1,6 +1,6 @@
 .cantact-form {
-  height: 450px;
-  width: 500px;
+  height: auto;
+  /* width: 500px; */
   font-size: 21px;
   position: relative;
 }
@@ -9,7 +9,7 @@
   position: relative;
 }
 .Cantact-title::after {
-  content: "";
+  content: '';
   display: block;
   width: 80px;
   height: 2px;

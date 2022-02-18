@@ -1,6 +1,6 @@
-import emailjs from "emailjs-com";
-import React, { useRef } from "react";
-import "./Cantact.css";
+import emailjs from 'emailjs-com';
+import React, { useRef } from 'react';
+import './Cantact.css';
 export default function Cantact() {
   const form = useRef();
 
@@ -9,10 +9,10 @@ export default function Cantact() {
 
     emailjs
       .sendForm(
-        "service_65fygts",
-        "template_sch6xys",
+        'service_65fygts',
+        'template_sch6xys',
         form.current,
-        "user_rhCMLoZOAWhNP1xIB23kW"
+        'user_rhCMLoZOAWhNP1xIB23kW',
       )
       .then(
         (result) => {
@@ -20,7 +20,7 @@ export default function Cantact() {
         },
         (error) => {
           console.log(error.text);
-        }
+        },
       );
     e.target.reset();
   };
@@ -28,7 +28,7 @@ export default function Cantact() {
     <div className="container cantact-form" id="#Cantact">
       <div className="row d-flex justify-content-center">
         <div className="col-12 d-flex justify-content-center">
-          <h2 className="Cantact-title mb-5">Cantact Us</h2>
+          <h2 className="Cantact-title mb-5">Contact Us</h2>
         </div>
 
         <form
@@ -36,7 +36,7 @@ export default function Cantact() {
           ref={form}
           onSubmit={sendEmail}
         >
-          <div className="form-row col-8">
+          <div className="form-row col-md-8 ">
             <div className="form-group col-md-6">
               <label for="inlineFormInput pl-2">Name</label>
               <input

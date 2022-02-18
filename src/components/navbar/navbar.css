@@ -1,11 +1,12 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
-.navbar-collapse {
+/* .navbar-collapse {
   margin-left: 49px;
-}
+} */
+
 .navbar-brand {
   margin-left: 49px;
   display: flex;
@@ -15,7 +16,10 @@
   text-decoration: none !important;
   margin-left: 40px !important;
 }
-
+.navbar-nav {
+  background-color: #222222;
+  padding: 0;
+}
 .header {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
   width: 100%;
@@ -41,7 +45,7 @@ nav a {
 }
 
 nav a::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
@@ -56,4 +60,9 @@ nav a::after {
 
 nav a:hover::after {
   transform: scaleX(0.8);
+}
+@media (max-width: 684px) {
+  nav a {
+    font-size: 16px;
+  }
 }
