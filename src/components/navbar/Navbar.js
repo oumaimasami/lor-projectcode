@@ -29,7 +29,7 @@ export default function Navbar() {
       </a>
 
       <button
-        className="navbar-toggler"
+        className="navbar-toggler m-2"
         type="button"
         data-toggle="collapse"
         data-target="#navbarNavDropdown"
